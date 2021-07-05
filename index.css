@@ -23,6 +23,14 @@
 
     
 }
+.navbar img{
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: relative;
+    left: -805px;
+}
 .navbar ul{
     display: inline-flex;
     list-style: none;
