@@ -63,7 +63,8 @@
     margin-left: 15px;
 }
 #au{
-    text-align: center;
+    position: relative;
+    left: 125px;
     color: tomato;
 }
 #ep{
@@ -102,15 +103,19 @@ h1{
     background-image: url("images/Project\ Cover7.png");
     background-color: rgba(250, 235, 215, 0.877);
     height: 450px;
-    width: 100%;
+    width: 80%;
+    margin-left: 150px;
+    border-radius: 15px;
+    
 }
 .famousitem{
     
     color: whitesmoke;
     position: relative;
-    top: 450px;
+    top: 500px;
     height: fit-content;
     width: 100%;
+    
 
 }
 .famousitem h1{
@@ -118,6 +123,9 @@ h1{
     font-size: 54px;
     text-align: center;
     text-decoration: none;
+}
+.famousitem p{
+    padding: 25px;
 }
 #fi{
     font-size: 24px;
@@ -147,7 +155,7 @@ h1{
 }
 .abt-dsc h1{
     position: relative;
-    left: 275px;
+    left: 145px;
     font-size: 44px;
 
 }
@@ -178,7 +186,7 @@ h1{
     box-shadow: 4px 4px 4px 4px rgba(143, 140, 140, 0.733);
     padding: 5px;
     margin: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
     border-radius: 10px;
 }
 .salad:hover{
@@ -257,7 +265,7 @@ footer
 {   
     display: flex;
     position: relative;
-    top: 450px;
+    top: 480px;
     background-color: rgba(11, 12, 12, 0.986);
     height: fit-content;
     color: white;
@@ -293,12 +301,24 @@ footer
     width: 20px;
     height: 20px;
 }
-address ul li{
-    position: relative;
-    top: 450px;
-    
+.address ul li{
+   
     padding: 10px;
     list-style: none;
     text-decoration: none;
-    text-align: center;
+    
+}
+.address{
+    margin-left: 80px;
+}
+
+.follow_us{
+    margin-left: 100px;
+    
+}
+
+.follow_us ul li{
+    list-style: none;
+    padding: 10px;
+
 }
