@@ -5,7 +5,8 @@
 }
 .container{
     background-image: url("images/healthy-breakfast-black-wooden-.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
+   background-color: black;
     
     
     
@@ -24,8 +25,8 @@
     
 }
 .navbar img{
-    top: 15px;
     height: 60px;
+    top: 15px;
     width: 60px;
     border-radius: 100%;
     position: relative;
@@ -59,6 +60,7 @@
 }
 
 
+
 .description{
     position: relative;
     left: 340px;
@@ -67,7 +69,6 @@
     
     width: fit-content;
     padding: 10px;
-    box-shadow: 3px 3px 5px 3px rgba(192, 192, 192, 0.726);
     margin-left: 15px;
 }
 #au{
@@ -114,7 +115,16 @@ h1{
     width: 80%;
     margin-left: 150px;
     border-radius: 15px;
+    box-shadow: 3px 3px 5px 3px rgba(192, 192, 192, 0.726);
     
+
+    
+}
+#spn1{
+    color: crimson;
+}
+#spn2{
+    color: white;
 }
 .famousitem{
     
@@ -330,3 +340,7 @@ footer
     padding: 10px;
 
 }
+
+
+
+ 
